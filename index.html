@@ -20,7 +20,10 @@
 
     <h1>AXIOS</h1>
 
-    <ul v-for="email in emails">
+    <ul
+      v-for="email in emails"
+      v-show="emails.length === maxEmails"
+      >
       <li>{{email}}</li>
     </ul>
 
