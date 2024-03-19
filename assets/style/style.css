@@ -6,4 +6,19 @@
 
 body{
   font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  background-color: darkslategray;
+  color: white;
+}
+
+h1{
+  margin: 50px 0;
+}
+
+li{
+  margin: 10px 0;
+}
+
+button{
+  margin-top: 50px;
 }

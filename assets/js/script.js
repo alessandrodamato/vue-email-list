@@ -24,12 +24,13 @@ createApp({
         this.getEmails();
       }
       console.log(this.emails);
+      this.emails = [];
     }
 
   },
 
   mounted(){
-    this.cycleEmails();
+
   }
 
 }).mount('#app')
