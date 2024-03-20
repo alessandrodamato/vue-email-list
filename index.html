@@ -20,11 +20,12 @@
 
     <h1>AXIOS</h1>
 
-    <ul
+    <ul>
+      <li
       v-for="email in emails"
       v-show="emails.length === maxEmails"
       >
-      <li>{{email}}</li>
+      {{email}}</li>
     </ul>
 
     <button @click="cycleEmails()">Generate Emails</button>
